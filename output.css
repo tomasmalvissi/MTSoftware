@@ -46,6 +46,11 @@ html {
   /* 4 */
 }
 
+@media only screen and (max-width: 1026px) {
+  #contactBut {
+      display: none;
+  }
+}
 /*
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
@@ -1453,7 +1458,7 @@ input:checked + .toggle-bg {
 
 .bg-primary-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+  background-color: #01133f;
 }
 
 .bg-gray-100 {
@@ -1482,7 +1487,7 @@ input:checked + .toggle-bg {
 
 .bg-primary-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+  background-color: #01133f;
 }
 
 .bg-opacity-50 {
@@ -1707,7 +1712,7 @@ input:checked + .toggle-bg {
 
 .text-primary-600 {
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: #02c8f0;
 }
 
 .text-gray-600 {
@@ -1804,7 +1809,7 @@ input:checked + .toggle-bg {
 
 .hover\:bg-primary-800:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  background-color: #061029
 }
 
 .hover\:bg-primary-600:hover {
